@@ -8,42 +8,39 @@
     <title>Document</title>
 </head>
 <body>
-    <div class = container>
-        <div class = mainFrame>
-          <div class = output>
-            <span>OUTPUT</span>
-          </div>
-          
-          <div class = keyBoard>
-            <div class = numberBoard>
-              <p class = numbers><span>1</span></p>
-              <p class = numbers><span>2</span></p>
-              <p class = numbers><span>3</span></p>
-              <p class = numbers><span>4</span></p>
-              <p class = numbers><span>5</span></p>
-              <p class = numbers><span>6</span></p>
-              <p class = numbers><span>7</span></p>
-              <p class = numbers><span>8</span></p>
-              <p class = numbers><span>9</span></p>
-            </div>
-            <div class = operatorBoard>
-              <p class = operators>+</p>
-              <p class = operators>-</p>
-              <p class = operators>/</p>
-              <p class = operators>x</p>
-              <p class = operators>%</p>
-              <p class = operators>=</p>
-            </div>
-          </div>
-          <div class= clearButton>
-            <p>CLEAR</p>
-          </div>
+  <div class = container>
+    <div class = mainFrame>
+      <div id = output class = display>
+        <span id= output></span>
+      </div>
+      
+      <div class = keyBoard>
+        <div class = numberBoard>
+          <input class = "buttons numbers" type="button" value = 1>
+          <input class = "buttons numbers" type="button" value = 2>
+          <input class = "buttons numbers" type="button" value = 3>
+          <input class = "buttons numbers" type="button" value = 4>
+          <input class = "buttons numbers" type="button" value = 5>
+          <input class = "buttons numbers" type="button" value = 6>
+          <input class = "buttons numbers" type="button" value = 7>
+          <input class = "buttons numbers" type="button" value = 8>
+          <input class = "buttons numbers" type="button" value = 9>
+          <input class = "buttons zero" type="button" value = 0 >
         </div>
-      </div>   
-    
-
-
-
+        <div class = operatorBoard>
+          <input class = "buttons operators" type="button" value = '+'>
+          <input class = "buttons operators" type="button" value = '-'>
+          <input class = "buttons operators" type="button" value = '/'>
+          <input class = "buttons operators" type="button" value = '*'>
+          <input class = "buttons operators" type="button" value = '%'>
+          <input class = "buttons operators" type="button" value = '='>
+          <input class = "buttons clearButton" type="button" value = 'CLEAR'>
+    </div>      
+        
+        </div>
+      </div>
+      
+  </div>
 
 
  <script src="js/script.js"></script>   
